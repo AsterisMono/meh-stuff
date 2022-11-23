@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\Directory\shell\neovide]
+@="Open Neovim Session"
+"Icon"="\"C:\\Users\\nanek\\scoop\\apps\\neovide\\0.10.3\\neovide.exe\",0"
+[HKEY_CLASSES_ROOT\Directory\shell\neovide\command]
+@="\"C:\\Users\\nanek\\scoop\\apps\\neovide\\0.10.3\\neovide.exe\" -- -S \"%1\\session.vim\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\neovidefolder]
+@="Open Folder in Neovim"
+[HKEY_CLASSES_ROOT\Directory\shell\neovidefolder\command]
+@="\"C:\\Users\\nanek\\scoop\\apps\\neovide\\0.10.3\\neovide.exe\" \"%1\""
