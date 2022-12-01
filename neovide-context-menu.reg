@@ -3,10 +3,10 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\shell\neovidefolder]
 @="Open Folder in Neovim"
 [HKEY_CLASSES_ROOT\Directory\shell\neovidefolder\command]
-@="\"C:\\Users\\cmiki\\scoop\\apps\\neovide\\current\\neovide.exe\" \"%1\""
+@="\"C:\\Users\\cmiki\\scoop\\apps\\neovim\\current\\bin\\nvim-qt.exe\" \"%1\""
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\neovide]
 @="Open Folder as Neovim Project"
-"Icon"="\"C:\\Users\\cmiki\\scoop\\apps\\neovide\\current\\neovide.exe\",0"
+"Icon"="\"C:\\Users\\cmiki\\scoop\\apps\\neovim\\current\\bin\\nvim-qt.exe\",0"
 [HKEY_CLASSES_ROOT\Directory\Background\shell\neovide\command]
-@="\"C:\\Users\\cmiki\\scoop\\apps\\neovide\\current\\neovide.exe\" \"%V\""
+@="\"C:\\Users\\cmiki\\scoop\\apps\\neovim\\current\\bin\\nvim-qt.exe\" \"%V\""
